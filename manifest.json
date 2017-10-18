@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Enhanced gnomAD browser",
+  "version": "0.1.0",
+  "description": "add population frequencies stacked bar plots",
+ 
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["lib_js/jquery-1.11.1.min.js",
+    	   "lib_js/underscore-min.js",
+    	   "lib_js/jquery.tablesorter.min.js", 
+    	   "lib_js/d3.v3.min.js",
+    	   "app_js/utils.js",
+    	   "app_js/main.js"],
+
+    "matches": ["http://gnomad.broadinstitute.org/*"]
+  }],
+  "permissions": [
+    "tabs", "<all_urls>"
+  ]
+ 
+}
