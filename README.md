@@ -1,6 +1,6 @@
-Google Chrome extension for gnomAD browser which diplay population AF stacked bar plots.
+Google Chrome extension for gnomAD browser which diplays population AF stacked bar plots.
 
-To install the extension:
+Installation:
 
 1) Download extension archive from GitHub:
 
